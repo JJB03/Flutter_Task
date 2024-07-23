@@ -175,7 +175,7 @@ class _HomePageState extends State<HomePage>
                 valueListenable: _resultNotifier,
                 builder: (context, value, child) {
                   return Text(
-                    value.isEmpty ? '룰렛돌리기' : 'Result: $value',
+                    value.isEmpty ? '~룰렛돌리기~' : 'Result: $value',
                     style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                   );
                 },
